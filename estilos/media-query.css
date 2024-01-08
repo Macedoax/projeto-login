@@ -1,6 +1,26 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 375px) and (orientation: landscape) {
+
+    section#login {
+        height: 350px;
+        width: 80%;
+    }
+
+    section#login > div#imagem {
+        background: rgba(41, 44, 61, 0.751) url(../imagens/pexels-jiarong-deng-1034665.jpg);
+        height: 55px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: block;
+    }
+
 @media screen and (min-width: 768px) and (max-width: 992px) and (orientation: landscape) {
+
+    section#login {
+        height: 350px;
+    }
 
     section#login {
         width: 80vw;
